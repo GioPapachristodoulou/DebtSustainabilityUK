@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+title: "UK Debt Sustainability Analysis (UK‑DSA)"
+message: "If you use this repository, please cite it as below."
+authors:
+  - family-names: Papachristodoulou
+    given-names: Giorgos
+  - family-names: Michaelides
+    given-names: Alex
+  - family-names: ChatGPT (assistant)
+    given-names: GPT-5 Thinking
+date-released: 2025-09-09
+version: "0.1.0"
+license: MIT

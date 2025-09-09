@@ -1,0 +1,43 @@
+\
+\documentclass[11pt]{article}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{siunitx}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage[hidelinks]{hyperref}
+\usepackage{cleveref}
+\usepackage{microtype}
+
+\title{UK Debt Sustainability: Baseline Replication and Risk Scenarios}
+\author{Giorgos Papachristodoulou \and Alex Michaelides}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We replicate the OBR baseline and stress-test UK debt sustainability using deterministic and stochastic scenarios. All results are fully reproducible from code and up-to-date public data.
+\end{abstract}
+
+\section{Introduction and Contribution}
+One-paragraph context; clear statement of contribution and computational approach.
+
+\section{Data and Baseline Replication}
+Document OBR/ONS/DMO/BoE sources; show reconciliation table. Figures auto-generated from \texttt{figures/auto}.
+
+\section{Methods}
+Debt arithmetic, maturity mapping, term-structure transmission, Monte-Carlo design.
+
+\section{Results: Deterministic Scenarios}
+Clean figures, no fluff; policy-relevant metrics (debt/GDP, interest/revenue, financing need).
+
+\section{Results: Stochastic Distributions}
+Fan charts; probability of threshold breaches; stabilising primary balances.
+
+\section{Policy Takeaways}
+Quantified targets; credibility and risk considerations.
+
+\bibliographystyle{abbrv}
+\bibliography{refs}
+\end{document}

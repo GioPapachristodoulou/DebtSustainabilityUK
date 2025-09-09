@@ -1,0 +1,23 @@
+name: uk-dsa
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas=2.2.*
+  - numpy=1.26.*
+  - scipy=1.13.*
+  - statsmodels=0.14.*
+  - matplotlib=3.9.*
+  - pyarrow=16.*
+  - openpyxl=3.1.*
+  - requests=2.32.*
+  - beautifulsoup4=4.12.*
+  - lxml=5.*
+  - pytest=8.*
+  - black=24.*
+  - ruff=0.6.*
+  - pre-commit=3.*
+  - pip
+  - pip:
+      - linearmodels==5.4
+      - papermill==2.6.0
